@@ -1,0 +1,11 @@
+---
+title: "hello"
+format: html
+editor: visual
+---
+
+```{r}
+install.packages("ggplot2")
+library(ggplot2)
+str(mpg)
+```

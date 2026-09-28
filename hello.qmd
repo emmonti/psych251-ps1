@@ -2,16 +2,15 @@
 title: "hello"
 format: html
 editor: visual
+embed-resources: true
 ---
 
-```{r}
-install.packages("ggplot2")
+```{r chunk1}
 library(ggplot2)
 str(mpg)
 ```
 
-```{r}
-install.packages("ggplot2")
+```{r chunk2}
 library(ggplot2)
 
 ggplot(mpg, aes(displ, hwy, colour = class)) +

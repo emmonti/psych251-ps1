@@ -1,0 +1,6 @@
+id,userType,month,year,caregiverId,teacherId,school,class,cohort
+25,child,2,2018,,5,english GB,A,
+24,child,2,2018,,5,english GB,A,
+26,child,2,2018,,5,english GB,A,
+27,child,2,2018,,5,english GB,A,
+28,teacher,2,1990,,5,english GB,A,

@@ -5,5 +5,15 @@ editor: visual
 ---
 
 ```{r}
-sqrt(24)
+install.packages("ggplot2")
+library(ggplot2)
+str(mpg)
+```
+
+```{r}
+install.packages("ggplot2")
+library(ggplot2)
+
+ggplot(mpg, aes(displ, hwy, colour = class)) +
+  geom_point()
 ```
